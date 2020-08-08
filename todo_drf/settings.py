@@ -41,7 +41,11 @@ INSTALLED_APPS = [
     'api.apps.ApiConfig',
     
     'rest_framework',
+<<<<<<< HEAD
     'corsheaders',
+=======
+    'corsheaders'
+>>>>>>> 471c785db9dcfb07bc9556106686b0727eddc5c2
 
 ]
 
@@ -132,8 +136,11 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'frontend/build/static')
 ]
 
+<<<<<<< HEAD
 CORS_ORIGIN_ALLOW_ALL = False
 
+=======
+>>>>>>> 471c785db9dcfb07bc9556106686b0727eddc5c2
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000"
 ]
